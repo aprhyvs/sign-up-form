@@ -1,0 +1,11 @@
+.image__text {
+  font-family: 'Norse Bold';
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.signup__lead,
+.signup__form-title {
+  font-family: 'Roboto-SemiBold';
+  font-size: 15px;
+}
