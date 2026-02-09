@@ -1,11 +1,65 @@
+body {
+  display: flex;
+  min-height: 100vh;
+}
+
+.image {
+  background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+  width: 100%;  
+  max-width: 535px;
+  max-height: 100%;
+  background-size: cover;
+}
+
+.image__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000070;
+  margin-top: 14rem;
+}
+
+.image__logo {
+  max-width: 96px;
+  width: 50%;
+}
+
 .image__text {
   font-family: 'Norse Bold';
-  font-size: 32px;
+  font-size: 96px;
   font-weight: 800;
+  color: #FFFFFF;
+}
+
+.signup {
+  background-color: var(--bg);
+}
+
+.signup__body {
+  background-color: var(--form-bg);
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+  padding: 16px 48px;
 }
 
 .signup__lead,
 .signup__form-title {
   font-family: 'Roboto-SemiBold';
   font-size: 15px;
+}
+
+.signup__field-row {
+  display: flex;
+  gap: 72px;
+  margin-top: 24px;
+}
+
+.signup__field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.signup__input {
+  height: 32px;
+  width: 262px;
 }

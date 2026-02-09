@@ -13,9 +13,7 @@
 <body>
   <section class="image">
     <header class="image__header">
-      <div class="image__logo">
-        <!--logo goes here-->
-      </div>
+      <img src="odin-lined.png" class="image__logo" alt="odin-logo">
       <h1 class="image__text">
         ODIN
       </h1>
@@ -40,12 +38,42 @@
         <p class="signup__form-title">
           Let's do this!
         </p>
-
-        <div class="signup__field">
           <!--TODO: learn how to use for attribute and labels, see: form accessibilty-->
-          <label for="first_name" class="signup__label">First Name</label>
-          <input type="text" class="signup__input" id="first_name">
-        </div> 
+        <div class="signup__field-row">
+          <div class="signup__field">
+            <label for="first_name" class="signup__label">FIRST NAME</label>
+            <input type="text" class="signup__input" id="first_name">
+          </div> 
+
+          <div class="signup__field">
+            <label for="last_name" class="signup__label">LAST NAME</label>
+            <input type="text" class="signup__input" id="last_name">        
+          </div>
+        </div>
+
+        <div class="signup__field-row">
+          <div class="signup__field">
+            <label for="email" class="signup__label">EMAIL</label>
+            <input type="text" class="signup__input" id="email">
+          </div> 
+
+          <div class="signup__field">
+            <label for="phone_number" class="signup__label">PHONE NUMBER</label>
+            <input type="text" class="signup__input" id="phone_number">        
+          </div>
+        </div>
+
+        <div class="signup__field-row">
+          <div class="signup__field">
+            <label for="password" class="signup__label">PASSWORD</label>
+            <input type="text" class="signup__input" id="password">
+          </div> 
+
+          <div class="signup__field">
+            <label for="confirm_password" class="signup__label">CONFIRM PASSWORD</label>
+            <input type="text" class="signup__input" id="confirm_password">        
+          </div>
+        </div>
       </div> 
 
       <div class="signup__actions">
