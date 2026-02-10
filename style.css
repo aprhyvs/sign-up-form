@@ -35,6 +35,12 @@ body {
   background-color: var(--bg);
 }
 
+.signup__header {
+  padding: 0 48px;
+  /* margin-top: 172px; */
+  margin: 16px 0;
+}
+
 .signup__body {
   background-color: var(--form-bg);
   box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
@@ -44,7 +50,11 @@ body {
 .signup__lead,
 .signup__form-title {
   font-family: 'Roboto-SemiBold';
-  font-size: 15px;
+  font-size: 24px;
+}
+
+.signup__lead:last-child {
+  margin-top: 16px;
 }
 
 .signup__field-row {
@@ -56,10 +66,48 @@ body {
 .signup__field {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 0.25px;
 }
 
 .signup__input {
   height: 32px;
   width: 262px;
+  border: 1px solid var(--form-border);
+  border-radius: 4px;
+}
+
+.signup__label {
+  font-size: 12px;
+  font-family: 'Roboto-SemiBold';
+  letter-spacing: 0.25ch;
+  color: var(--form-text);
+}
+
+.signup__actions {
+  display: inline-flex;
+  flex-direction: column;
+  /* gap: 32px; */
+  gap: 24px;
+  padding: 0 48px;
+  margin-top: 32px;
+}
+
+.signup__button {
+  all: unset;
+  font-family: 'Roboto-SemiBold';
+  font-size: 18px;
+  background-color: var(--accent);
+  color: var(--btn-text);
+  padding: 12px 55px;
+  border-radius: 4px;
+}
+
+.signup__sub {
+  font-family: 'Roboto-SemiBold';
+}
+
+.signup__login-link {
+  color: var(--accent);
+  text-decoration: none;
+
 }

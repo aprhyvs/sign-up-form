@@ -1,4 +1,8 @@
 :root {
   --bg: #F9FAFB;
   --form-bg: #FFFFFF;
+  --form-border: #E5E7EB;
+  --form-text: #1F2937;
+  --accent: #596D48;
+  --btn-text: #FBFCFB;
 }
