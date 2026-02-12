@@ -5,4 +5,7 @@
   --form-text: #1F2937;
   --accent: #596D48;
   --btn-text: #FBFCFB;
+  --valid: #35aa2a;
+  --invalid: #C33C3C;
+  --focus: #5E80E1;
 }
